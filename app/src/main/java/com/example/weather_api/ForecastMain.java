@@ -8,7 +8,7 @@ public class ForecastMain {
 
     private float pressure;
 
-    private  float himidity;
+    private float himidity;
 
     @SerializedName("temp_min")
     private float minTemp;
@@ -17,14 +17,24 @@ public class ForecastMain {
     private float maxTemp;
 
     // ************************************
-    public  float getTemp(){ return temp;}
+    public float getTemp() {
+        return temp;
+    }
 
-    public  float getPressure (){return pressure;}
+    public float getPressure() {
+        return pressure;
+    }
 
-    public  float getHimidity(){return himidity;}
+    public float getHimidity() {
+        return himidity;
+    }
 
-    public  float getMinTemp(){ return minTemp;}
+    public float getMinTemp() {
+        return minTemp;
+    }
 
-    public  float getMaxTemp(){return maxTemp;}
+    public float getMaxTemp() {
+        return maxTemp;
+    }
 
 }
