@@ -19,7 +19,7 @@ public class CurrentWeather {
         return wind;
     }
 
-    public String getSityNAme() {
+    public String getCityName() {
         return cityName;
     }
 }
